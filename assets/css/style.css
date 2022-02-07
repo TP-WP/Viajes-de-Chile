@@ -21,3 +21,9 @@ body {
     var(--bs-bg-opacity)
   ) !important;
 }
+
+hr {
+  width: fit-content;
+  color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  opacity: 100%;
+}

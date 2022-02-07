@@ -19,6 +19,13 @@
       rel="stylesheet"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
     <!-- Mi hoja de estilo -->
     <link href="assets/css/style.css" rel="stylesheet" />
 
@@ -27,9 +34,9 @@
   <body class="bg-black">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-0 fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <a href="#" class="logo p-0 m-0"
+      <div class="container align-items-left">
+        <a class="navbar-brand text-left" href="#">
+          <a href="#" class="logo"
             ><span class="ps-5 text-white">Viajes Chile</span></a
           >
         </a>
@@ -119,11 +126,11 @@
     </div>
 
     <!-- Quienes somos -->
-    <div id="sobre-mi" class="container">
+    <div id="sobre-mi" class="container d-none d-md-block">
       <div class="row">
         <div class="col-sm-12">
           <h2 class="text-center">Quienes somos</h2>
-          <hr class="opacity-100 w-25 mx-auto" />
+          <hr />
         </div>
         <div class="col-sm-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis
@@ -167,15 +174,22 @@
     <!-- Destacados -->
     <section class="container my-5 border-top border-dark">
       <div class="row">
-        <h1 class="text-center mt-3">Recetas relacionadas</h1>
+        <h1 class="text-center mt-3">Destacados</h1>
+        <hr />
         <div class="col-sm-3 my-5">
           <div class="card h-100">
-            <img src="assets/img/card1.jpg" class="card-img-top" alt="..." />
+            <img
+              src="assets/img/card1.jpg"
+              class="card-img-top img-fluid"
+              alt="..."
+            />
             <div class="card-body">
-              <h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
+              <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
               <p class="card-text">
-                Mus enim elementum dignissim class eleifend justo, ut nunc
-                magnis est vulputate nostra, blandit erat luctus faucibus orci.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dolorem molestiae, modi officia doloremque doloribus aut laborum
+                impedit, earum quasi inventore voluptate nulla molestias animi
+                magni alias porro assumenda, libero dolor.
               </p>
             </div>
           </div>
@@ -183,7 +197,11 @@
 
         <div class="col-sm-3 my-5">
           <div class="card h-100">
-            <img src="assets/img/card2.jpg" class="card-img-top" alt="..." />
+            <img
+              src="assets/img/card2.jpg"
+              class="card-img-top img-fluid"
+              alt="..."
+            />
             <div class="card-body">
               <h5 class="card-title">TIRAMISÚ</h5>
               <p class="card-text">
@@ -197,7 +215,11 @@
 
         <div class="col-sm-3 my-5">
           <div class="card h-100">
-            <img src="assets/img/card3.jpg" class="card-img-top" alt="..." />
+            <img
+              src="assets/img/card3.jpg"
+              class="card-img-top img-fluid"
+              alt="..."
+            />
             <div class="card-body">
               <h5 class="card-title">PLATEADA</h5>
               <p class="card-text">
@@ -210,7 +232,11 @@
         </div>
         <div class="col-sm-3 my-5">
           <div class="card h-100">
-            <img src="assets/img/card4.jpg" class="card-img-top" alt="..." />
+            <img
+              src="assets/img/card4.jpg"
+              class="card-img-top img-fluid"
+              alt="..."
+            />
             <div class="card-body">
               <h5 class="card-title">PLATEADA</h5>
               <p class="card-text">
@@ -225,13 +251,34 @@
     </section>
 
     <!-- Contactanos -->
+    <div class="container">
+      <h1 class="text-center">Contacto</h1>
+      <hr />
+      <div
+        data-tf-widget="EKbOzhio"
+        data-tf-iframe-props="title=Contacto"
+        data-tf-medium="snippet"
+        style="width: 100%; height: 400px"
+      ></div>
+      <script src="//embed.typeform.com/next/embed.js"></script>
+    </div>
+
+    <!-- Footer -->
     <div
-      data-tf-widget="EKbOzhio"
-      data-tf-iframe-props="title=Contacto"
-      data-tf-medium="snippet"
-      style="width: 100%; height: 400px"
-    ></div>
-    <script src="//embed.typeform.com/next/embed.js"></script>
+      class="icons-section text-center text-white bg-primary container-fluid"
+    >
+      <div class="row">
+        <span class="bold col-12 col-sm-6" style="font-size: 3em"
+          >VIAJES CHILE</span
+        >
+        <span class="col-12 col-sm-6 pt-2">
+          <i class="fab fa-github-square fa-3x"></i>
+          <i class="fab fa-linkedin fa-3x"></i>
+          <i class="fab fa-twitter-square fa-3x"></i>
+          <i class="fab fa-facebook-square fa-3x"></i>
+        </span>
+      </div>
+    </div>
 
     <!-- Bootstrap 5.1.3 min Bundle with Popper JS -->
     <script
