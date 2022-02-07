@@ -1,0 +1,23 @@
+body {
+  font-family: raleway;
+  color: white;
+}
+
+.logo {
+  background: url(../img/viajes.svg);
+  background-size: 2em;
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.card,
+.card-title {
+  background-color: rgba(
+    var(--bs-primary-rgb),
+    var(--bs-bg-opacity)
+  ) !important;
+}
