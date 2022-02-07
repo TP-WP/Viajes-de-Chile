@@ -1,6 +1,15 @@
 body {
   font-family: raleway;
   color: white;
+  font-weight: 300;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 700;
 }
 
 .logo {
@@ -23,7 +32,6 @@ body {
 }
 
 hr {
-  width: fit-content;
   color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
   opacity: 100%;
 }
